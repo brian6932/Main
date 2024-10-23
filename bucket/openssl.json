@@ -38,7 +38,9 @@
         "OPENSSL_LIB_DIR": "$dir\\lib",
         "OPENSSL_INCLUDE_DIR": "$dir\\include",
         "OPENSSL_MODULES": "$dir\\bin",
-        "OPENSSL_CONF": "$dir\\bin\\cnf\\openssl.cnf"
+        "OPENSSL_CONF": "$dir\\bin\\cnf\\openssl.cnf",
+        "OPENSSL_CRYPTO_LIBRARY": "$dir\\lib\\libcrypto_static.lib",
+        "OPENSSL_SSL_LIBRARY": "$dir\\lib\\libssl_static.lib"
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
